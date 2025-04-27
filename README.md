@@ -1,4 +1,4 @@
-# Blitz Search
+# Blitz Search  🚀
 
 This project tackles the performance challenges of client-side search operations as datasets grow larger. It uses vanilla JavaScript and Web Workers for parallel processing, ensuring smooth and scalable search performance without compromising the user experience.
 
