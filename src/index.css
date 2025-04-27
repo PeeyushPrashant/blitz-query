@@ -11,3 +11,88 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  padding: 20px 20px 10px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden; /* prevents the whole page from scrolling horizontally */
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  gap: 15px;
+}
+
+.actions > * {
+  margin-bottom: 10px;
+}
+
+.actions .ant-select {
+  min-width: 150px;
+}
+
+.actions span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.ant-table-wrapper {
+  background: #fff;
+
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.ant-pagination{
+  padding: 0 10px;
+}
+
+.ant-pagination-total-text{
+    position: absolute;
+    left: 1rem;
+}
+
+.ant-table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Make the scroll look nice */
+.ant-table-body {
+  scrollbar-width: thin;
+  scrollbar-color: #aaa #f0f0f0;
+}
+
+.ant-table-body::-webkit-scrollbar {
+  width: 6px;
+}
+
+.ant-table-body::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 3px;
+}
+
+.ant-table-body::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+  .actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .actions > * {
+    width: 100%;
+  }
+}
