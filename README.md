@@ -4,7 +4,7 @@ This project tackles the performance challenges of client-side search operations
 
 ## Context
 
-You know often time we face a problem that we want to build a search functionality for large dataset. But it is little difficult to build, even using the libraries like fuse.js.
+You know often time we face a problem that we want to build a search functionality for large dataset. But it is little difficult to build, even using the libraries like `fuse.js`.
 
 We use various search algorithms, different hacky solutions but initially all performs well untill your data grows to a large extent. Then the performance of these solutions starts to become slow.
 
