@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import TableWrapper from './components';
-import './App.css';
+import TableWrapper from "./components";
+import "./App.css";
 
 function App() {
   return (
-    <div >
-      <TableWrapper/>
+    <div>
+      <TableWrapper />
     </div>
   );
 }
